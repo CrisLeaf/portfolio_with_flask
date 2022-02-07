@@ -15,7 +15,10 @@
                  value="https://protected-fjord-89393.herokuapp.com/mail"/>
 
           <input name="name" placeholder="Nombre" required/>
-          <input name="email" placeholder="Correo" required type="email"/>
+          <input name="email" placeholder="Correo"
+                 type="text"
+                 pattern="[a-zA-Z0-9.-_]{1,}@[a-zA-Z.-]{2,}[.]{1}[a-zA-Z]{2,}"
+                 required/>
           <textarea name="message" placeholder="Mensaje" required minlength="10"></textarea>
           <button class="btn full-width">Enviar</button>
         </form>
