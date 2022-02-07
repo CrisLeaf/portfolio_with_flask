@@ -1,8 +1,6 @@
 from flask import (
 	Blueprint, render_template, request, redirect, url_for, current_app
 )
-import sendgrid
-from sendgrid.helpers.mail import *
 
 
 bp = Blueprint("portfolio", __name__, url_prefix="/")
