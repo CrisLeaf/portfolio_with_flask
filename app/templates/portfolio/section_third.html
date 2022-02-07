@@ -11,7 +11,8 @@
               method="POST">
           <input type="text" name="_honey" style="display: none;">
           <input type="hidden" name="_captcha" value="false">
-          <!--          <input type="hidden" name="_next" action="{{ url_for('portfolio.mail') }}"/>-->
+          <input type="hidden" name="_next"
+                 value="https://protected-fjord-89393.herokuapp.com/mail"/>
 
           <input name="name" placeholder="Nombre" required/>
           <input name="email" placeholder="Correo" required type="email"/>
