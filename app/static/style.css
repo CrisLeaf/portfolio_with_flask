@@ -152,6 +152,7 @@ a.btn {
 	font-family: "Rubik", sans-serif;
 	font-size: 14px;
 	border: none;
+	outline: none;
 	height: 30px;
 	padding: 5px 10px;
 	margin-bottom: 15px;
@@ -163,6 +164,7 @@ a.btn {
 	font-family: "Rubik", sans-serif;
 	font-size: 14px;
 	border: none;
+	outline: none;
 	height: 100px;
 	padding: 15px 10px;
 	resize: none;
@@ -199,4 +201,8 @@ a.btn {
 .made-with {
 	padding: 0 30px;
 	color: #666;
+}
+
+.white-bg {
+	background-color: #ffffff;
 }
