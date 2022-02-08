@@ -215,11 +215,17 @@ a.btn {
 	background-color: #ffffff;
 }
 
-
-
 /************ Mobiles ****************************************************************************/
 
-@media screen and (max-width: 1199px) {
+
+@media (max-width: 500px) {
+	body {
+		color:red;
+	}
+}
+
+/*
+@media screen and (max-width: 1279px) {
 	.image {
         width: 400px;
         padding: 0 0 0 50px;
@@ -320,5 +326,5 @@ a.btn {
     .image {
         width: 300px;
     }
-
 }
+*/
