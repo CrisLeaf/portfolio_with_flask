@@ -1,8 +1,3 @@
-/*
-primary color: #4279BD
-secondary color: #BD8642
-*/
-
 :root {
 	--primary-color: #4279BD;
 	--secondary-color: #BD8642;
@@ -54,10 +49,16 @@ header .logo {
 html body nav ul {
 	list-style-type: none;
 	font-size: 16px;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-content: stretch;
 }
 
 html body nav ul li {
 	display: inline-block;
+	text-align: center;
+	padding: 4px
 }
 
 html body nav ul li a {
@@ -205,4 +206,18 @@ a.btn {
 
 .white-bg {
 	background-color: #ffffff;
+}
+
+
+
+/************ Mobiles ****************************************************************************/
+
+@media screen and (max-width: 639px) {
+	header .logo {
+		padding: 0 20px 0 0;
+	}
+	html body nav ul {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
 }
