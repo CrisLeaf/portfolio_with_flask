@@ -219,7 +219,7 @@ a.btn {
 
 /************ Mobiles ****************************************************************************/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
 	.image {
         width: 400px;
         padding: 0 0 0 50px;
@@ -277,8 +277,8 @@ a.btn {
 		flex-direction: column;
 	}
 	.image {
-        width: 150px;
-        padding: 0 0 0 20px;
+        width: 200px;
+        padding: 0 0 0 10px;
     }
     .left {
         width: 220px;
@@ -301,11 +301,24 @@ a.btn {
     .left {
         width: 340px;
     }
+    .hero {
+        height: 440px
+    }
     .hero h1 {
         font-size: 25px;
     }
+    .hero-left {
+        position: absolute;
+        top: 320px;
+        right: 0;
+        left: 0;
+    }
+    .hero-right {
+        position: relative;
+        top: -50px;
+    }
     .image {
-        display: none;
+        width: 300px;
     }
 
 }
