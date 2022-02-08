@@ -268,9 +268,12 @@ a.btn {
 
 @media (max-width: 639px) {
 	header .logo {
+		font-size: 30px;
 		padding: 0 20px 0 0;
 	}
-
+	html body header {
+		padding: 0 30px;
+	}
 	html body nav ul {
 		flex-wrap: wrap;
 		flex-direction: column;
