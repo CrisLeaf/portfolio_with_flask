@@ -229,6 +229,14 @@ a.btn {
     .hero h1 {
         font-size: 40px;
     }
+
+    #contacto {
+        width: 50%;
+        margin: 0;
+    }
+    .third-left {
+        width: 50%;
+    }
 }
 
 @media (max-width: 999px) {
@@ -252,6 +260,10 @@ a.btn {
     }
     .first-right {
         padding: 20px 10px 20px 30px;
+    }
+
+    .third-left {
+        padding: 20px 30px 20px 10px
     }
 }
 
@@ -287,6 +299,37 @@ a.btn {
     }
     .card.third {
         padding: 20px 20px;
+    }
+
+	.third-content {
+		height: 600px;
+	}
+	.third-section {
+		height: 150px
+	}
+    .third-left {
+        padding: 20px 30px;
+        width: 80%;
+        position: absolute;
+        top: 100;
+    }
+    .third-right {
+        width: 100%;
+        top: 200px;
+        position: relative;
+    }
+    #contacto {
+        width: 100%;
+    }
+    .contact-form input {
+        width: calc(100% - 20px);
+    }
+    .contact-form textarea {
+        width: calc(100% - 20px);
+    }
+    .contact-form button {
+        width: 100%;
+        font-size: 18px;
     }
 }
 
@@ -353,6 +396,16 @@ a.btn {
     .card.third {
         width: auto;
     }
+
+    .third-left {
+        padding: 20px 30px;
+        width: 80%;
+        position: absolute;
+        top: 100;
+    }
+    .third-left p {
+        width: 250px;
+    }
 }
 
 @media (max-width: 449px) {
@@ -409,6 +462,9 @@ a.btn {
     #proyectos .content.padded .padded {
         padding: 20px 0;
     }
+    #contacto {
+        padding: 20px 20px;
+    }
 }
 
 @media (max-width: 359px) {
@@ -422,8 +478,8 @@ a.btn {
         height: 400px
     }
     .hero h1 {
-            font-size: 22px;
-        }
+        font-size: 22px;
+    }
     .hero-left {
         top: 250px;
     }
@@ -456,6 +512,22 @@ a.btn {
     .card.third {
         padding: 10px;
 	}
+
+	.third-container {
+		padding: 20px 20px;
+	}
+	.third-left {
+		width: 220px;
+		font-size: 14px;
+		padding: 20px 0 0 0;
+	}
+	.third-left p {
+		width: 100%;
+	}
+
+    #contacto {
+        padding: 20px 5px;
+    }
 }
 
 @media (max-width: 239px) {
