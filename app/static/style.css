@@ -300,6 +300,10 @@ a.btn {
 }
 
 @media (max-width: 449px) {
+	header .logo {
+		font-size: 20px;
+		padding: 0;
+	}
     .left {
         width: 340px;
     }
@@ -321,5 +325,47 @@ a.btn {
     }
     .image {
         width: 300px;
+    }
+}
+
+@media (max-width: 359px) {
+	.left {
+        width: 220px;
+    }
+    html body nav ul {
+        padding: 0;
+    }
+    .hero {
+        height: 400px
+    }
+    .hero h1 {
+            font-size: 22px;
+        }
+    .hero-left {
+        top: 250px;
+    }
+    .image {
+        width: 220px;
+    }
+}
+
+@media (max-width: 239px) {
+	.left {
+        width: 180px;
+    }
+    html body header {
+        padding: 0 5px;
+    }
+    header .logo {
+        font-size: 20px;
+    }
+    .hero {
+        height: 380px
+    }
+    .hero-left {
+        top: 200px;
+    }
+    .image {
+        width: 180px;
     }
 }
