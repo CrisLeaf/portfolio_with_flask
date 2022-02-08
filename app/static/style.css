@@ -201,6 +201,8 @@ a.btn {
 }
 
 .social {
+	font-size: 30px;
+	color: black;
 	background-color: #fff;
 	padding: 10px;
 	border-radius: 15px;
@@ -213,6 +215,10 @@ a.btn {
 
 .white-bg {
 	background-color: #ffffff;
+}
+
+.footer h3 {
+	text-align: center;
 }
 
 /************ Mobiles ****************************************************************************/
@@ -565,5 +571,8 @@ a.btn {
     }
     .card.third h3 {
         margin: 5px 0 0 0;
+    }
+    .made-with p {
+        font-size: 13px;
     }
 }
