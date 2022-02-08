@@ -245,6 +245,14 @@ a.btn {
     .btn {
         padding: 12px 24px;
     }
+
+    .first-left {
+		padding: 20px 30px 20px 10px;
+		width: 280px
+    }
+    .first-right {
+        padding: 20px 10px 20px 30px;
+    }
 }
 
 @media (max-width: 799px) {
@@ -263,6 +271,15 @@ a.btn {
     }
     .btn {
         padding: 10px 20px;
+    }
+
+    .first-left {
+        padding: 20px 40px 20px 0;
+        width: 250px;
+    }
+    .first-right {
+        padding: 20px 0 20px 40px;
+        width: 250px;
     }
 }
 
@@ -297,6 +314,27 @@ a.btn {
     .btn {
         padding: 6px 12px;
     }
+
+    .first-left {
+        padding: 20px 10px 20px 5px;
+        width: 220px;
+    }
+    .first-left h1 {
+        font-size: 20px;
+    }
+    .first-left p {
+        font-size: 15px;
+    }
+    .first-right {
+        padding: 20px 5px 20px 10px;
+        width: 210;
+    }
+    .first-right h1 {
+        font-size: 20px;
+    }
+    .first-right p {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 449px) {
@@ -326,6 +364,21 @@ a.btn {
     .image {
         width: 300px;
     }
+
+	.section-first {
+		height: 500px;
+	}
+	.first-left {
+		padding: 20px 0;
+		width: 340px;
+        position: relative;
+    }
+    .first-right {
+        padding: 20px 0;
+        width: 340px;
+        position: absolute;
+        top: 1030px;
+    }
 }
 
 @media (max-width: 359px) {
@@ -347,6 +400,19 @@ a.btn {
     .image {
         width: 220px;
     }
+
+    .section-first {
+        height: 580px;
+    }
+    .first-left {
+        width: 220px;
+        position: relative;
+    }
+    .first-right {
+        width: 220px;
+        position: absolute;
+        top: 1050px;
+    }
 }
 
 @media (max-width: 239px) {
@@ -367,5 +433,19 @@ a.btn {
     }
     .image {
         width: 180px;
+    }
+
+    .section-first {
+        height: 650px;
+    }
+    .first-left {
+        width: 190px;
+        position: relative;
+    }
+    .first-right {
+		padding: 40px 0 0 0;
+        width: 190px;
+        position: absolute;
+        top: 1050px;
     }
 }
