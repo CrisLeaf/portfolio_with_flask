@@ -146,7 +146,7 @@ a.btn {
 .card {
 	background-color: var(--bg-color);
 	box-shadow: 0 1px 2px #ddd;
-	border: solid 1px #ddd;
+	border: solid 2px #ddd;
 	border-radius: var(--border-radius);
 	padding: 20px 30px;
 }
@@ -281,6 +281,13 @@ a.btn {
         padding: 20px 0 20px 40px;
         width: 250px;
     }
+
+    #proyectos {
+        padding: 20px 20px;
+    }
+    .card.third {
+        padding: 20px 20px;
+    }
 }
 
 @media (max-width: 639px) {
@@ -335,6 +342,17 @@ a.btn {
     .first-right p {
         font-size: 15px;
     }
+
+    #proyectos .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #proyectos h1 {
+        font-size: 22px;
+    }
+    .card.third {
+        width: auto;
+    }
 }
 
 @media (max-width: 449px) {
@@ -379,6 +397,18 @@ a.btn {
         position: absolute;
         top: 1030px;
     }
+
+    #proyectos h1 {
+        align-text; justify;
+        font-size: 20px;
+        padding-left: -10px;
+    }
+    .card.third {
+        width: auto;
+    }
+    #proyectos .content.padded .padded {
+        padding: 20px 0;
+    }
 }
 
 @media (max-width: 359px) {
@@ -413,6 +443,19 @@ a.btn {
         position: absolute;
         top: 1050px;
     }
+
+    #proyectos {
+        padding: 10px;
+    }
+    #proyectos .content.padded {
+        padding: 20px 0px;
+    }
+    #proyectos .content.padded .padded {
+            padding: 20px 5px;
+        }
+    .card.third {
+        padding: 10px;
+	}
 }
 
 @media (max-width: 239px) {
@@ -447,5 +490,8 @@ a.btn {
         width: 190px;
         position: absolute;
         top: 1050px;
+    }
+    .card.third h3 {
+        margin: 5px 0 0 0;
     }
 }
