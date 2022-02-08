@@ -14,6 +14,7 @@ body {
 	background-color: var(--body-color);
 	margin: 0;
 	color: var(--primary-color);
+	overflow-x: hidden;
 }
 
 a {
@@ -71,7 +72,7 @@ html body nav ul li a {
 	display: flex;
 	background-color: var(--bg-color);
 	padding: 20px 50px;
-	justify-content:center;
+	justify-content: center;
 }
 
 .hero .hero-content {
@@ -96,6 +97,12 @@ html body nav ul li a {
 .left {
 	width: 600px;
 	align-self: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.right {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .btn {
@@ -116,7 +123,7 @@ a.btn {
 }
 
 .content {
-	width: 1200px;
+	max-width: 100%;
 }
 
 .row {
@@ -212,12 +219,93 @@ a.btn {
 
 /************ Mobiles ****************************************************************************/
 
+@media screen and (max-width: 1200px) {
+	.image {
+        width: 400px;
+        padding: 0 0 0 50px;
+    }
+    .left {
+        width: 400px;
+    }
+    .hero h1 {
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 999px) {
+	.image {
+        width: 350px;
+        padding: 0 0 0 50px;
+    }
+    .left {
+        width: 300px;
+    }
+    .hero h1 {
+        font-size: 32px;
+    }
+    .btn {
+        padding: 12px 24px;
+    }
+}
+
+@media screen and (max-width: 799px) {
+	.image {
+        width: 250px;
+        padding: 0 0 0 50px;
+    }
+    .hero {
+        padding: 50px 20px;
+    }
+    .hero h1 {
+        font-size: 30px;
+    }
+    .hero p {
+        font-size: 16px;
+    }
+    .btn {
+        padding: 10px 20px;
+    }
+}
+
 @media screen and (max-width: 639px) {
 	header .logo {
 		padding: 0 20px 0 0;
 	}
+
 	html body nav ul {
 		flex-wrap: wrap;
 		flex-direction: column;
 	}
+	.image {
+        width: 150px;
+        padding: 0 0 0 20px;
+    }
+    .left {
+        width: 220px;
+    }
+    .hero {
+        padding: 60px 20px;
+    }
+    .hero h1 {
+        font-size: 24px;
+    }
+    .hero p {
+        font-size: 14px;
+    }
+    .btn {
+        padding: 6px 12px;
+    }
+}
+
+@media screen and (max-width: 449px) {
+    .left {
+        width: 340px;
+    }
+    .hero h1 {
+        font-size: 25px;
+    }
+    .image {
+        display: none;
+    }
+
 }
