@@ -221,6 +221,10 @@ a.btn {
 	text-align: center;
 }
 
+.sent-mail {
+	padding: 68px 0;
+}
+
 /************ Mobiles ****************************************************************************/
 
 
@@ -270,6 +274,9 @@ a.btn {
 
     .third-left {
         padding: 20px 30px 20px 10px
+    }
+    .sent-mail {
+    	padding: 120px 0;
     }
 }
 
@@ -471,6 +478,17 @@ a.btn {
     #contacto {
         padding: 20px 20px;
     }
+
+    .mail-left {
+        position: absolute;
+		top: 340px;
+		right: 0px;
+		left: 0px;
+    }
+    .mail-right {
+        position: relative;
+        top: -180px;
+    }
 }
 
 @media (max-width: 359px) {
@@ -534,6 +552,13 @@ a.btn {
     #contacto {
         padding: 20px 5px;
     }
+
+    .mail-left {
+        top: 280px;
+    }
+    .mail-right {
+        top: -160px;
+    }
 }
 
 @media (max-width: 239px) {
@@ -574,5 +599,12 @@ a.btn {
     }
     .made-with p {
         font-size: 13px;
+    }
+
+    .mail-left {
+        top: 250px;
+    }
+    .mail-right {
+        top: -160px;
     }
 }
