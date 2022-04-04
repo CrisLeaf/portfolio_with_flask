@@ -6,20 +6,54 @@
     <div class="row">
       <div class="card third">
         <h3>Generador de Texto</h3>
-        <p>Red Neuronal que completa tus historias, basándose en el universo de Tolkien.</p>
+        <p>Red Neuronal que completa tus historias, basándose en el universo de Tolkien.
+          <br/>
+          <br/>
+          Consiste en una red Transformer GPT-2 pre entrenada para entender la gramática del idioma
+          español y luego refinada con texto extraído de libros y películas de Tolkien.</p>
         <a target="_blank"
            href="https://share.streamlit.io/crisleaf/tolkien_text_generator/text_generator_app.py"
            class="orange">Link aquí</a>
       </div>
       <div class="card third">
-        <h3>Conecta 4 Bot</h3>
-        <p>Un bot capaz de jugar al juego Conecta 4. Admite 2 dificultades.</p>
-        <a href="https://conecta4-bot.herokuapp.com/" class="orange">Link aquí</a>
+        <h3>Análisis de Ranking de Libros</h3>
+        <p>Tablero con diferentes tipos de analíticas para libros.
+          <br/>
+          <br/>
+          Análisis uni, bi y multi-variado para datos recolectados desde internet, con
+          el método de web-scraping. El objetivo es descubrir los factores que inciden en la
+          puntuación de los usuarios para cada libro.
+        </p>
+        <a target="_blank"
+           href="https://share.streamlit.io/crisleaf/books_dashboard/dashboard.py"
+           class="orange">Link aquí</a>
       </div>
       <div class="card third">
-        <h3>Sketchs Bot</h3>
-        <p>Dibuja algún objeto y una red neuronal intentará adivinar qué es.</p>
-        <a href="https://sketchs-app.herokuapp.com/" class="orange">Link aquí</a>
+        <h3>Clasificador de Imágenes</h3>
+        <p>Red neuronal capaz de adivinar dibujos hechos a mano por el usuario.
+          <br/>
+          <br/>
+          Montaje de una red MobileNet, con más de 3 millones de parámetros entrenables, en un
+          entorno web. Fue entrenada desde cero utilizando servicios en la nube, alimentándola con
+          millones de dibujos.
+
+        </p>
+        <a target="_blank"
+           href="https://sketchs-app.herokuapp.com/"
+           class="orange">Link aquí</a>
+      </div>
+      <div class="card third">
+        <h3>Simulación de Jugadas en Conecta 4</h3>
+        <p>Algoritmo que puede jugar al juego Conecta 4.
+          <br/>
+          <br/>
+          En cada movimiento simula más de mil jugadas utilizando el método de Monte Carlo Tree
+          Search, las que luego clasifica con un modelo matemático CatBoost para elegir la jugada
+          con mayor probabilidad de ganar. Admite 2 dificultades.
+        </p>
+        <a target="_blank"
+           href="https://conecta4-bot.herokuapp.com/"
+           class="orange">Link aquí</a>
       </div>
     </div>
   </div>

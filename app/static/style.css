@@ -129,7 +129,13 @@ a.btn {
 .row {
 	display: flex;
 	flex-direction: row;
+	align-content: center;
 }
+
+#proyectos .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
 .orange {
 	color: var(--secondary-color);
@@ -148,11 +154,11 @@ a.btn {
 	box-shadow: 0 1px 2px #ddd;
 	border: solid 2px #ddd;
 	border-radius: var(--border-radius);
-	padding: 20px 30px;
+	padding: 20px 40px 40px 40px;
 }
 
 .third {
-	width: 360px;
+	width: 600px;
 	margin: 20px;
 }
 
